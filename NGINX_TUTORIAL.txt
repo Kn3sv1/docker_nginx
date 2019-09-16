@@ -1,0 +1,22 @@
+﻿
+        //$response = $blockedMailExchanger->isBlocked('94.100.180.202');
+        $response = $blockedMailExchanger->isBlockedByEmail('satreg@mail.ru');
+
+        var_dump($response);
+        print_r($_POST['email']); die();
+        //http://xtube.roman.cy.mgco.io/signup.php
+        die('141');
+
+
+
+/amateur-signup/step3
+
+
+https://takacsmark.com/getting-started-with-docker-in-your-project-step-by-step-tutorial/
+r_satanovskyi@NIC1-W-PC-08455 MINGW64 /c/Program Files/Docker Toolbox
+$ docker rm my-nginx
+docker run --name my-nginx -d -p 80:80 -v /c/Users/r_satanovskyi/docker/nginx.conf:/etc/nginx/nginx.conf:ro nginx
+
+
+
+docker run --name my-nginx -d -p 80:80 -v /c/Users/r_satanovskyi/docker/nginx.conf:/etc/nginx/nginx.conf:ro -v /c/Users/r_satanovskyi/docker/src:/usr/share/nginx/html:ro nginx
