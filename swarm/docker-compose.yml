@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+    web:
+        build: .
+        image: kn3sv1/swarm-example:1.0
+        ports:
+            - 8030:3000
+        networks:
+            - mynet
+
+networks:
+    mynet:
